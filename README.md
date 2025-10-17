@@ -5,6 +5,8 @@
 
 
 NEW YORK CITY AIRBNB: A DATA DRIVEN ANALYSIS OF PRICING LOCATION, AND MARKET SEGMENTATION
+
+
 By Kanan Akparov, Ade Putra Tio Aldino, 
 Dwane Lay and Nelson Okolie
 
@@ -29,21 +31,23 @@ Our data for several NYC neighbourhoods, along with information on real estate d
 
 
 Brooklyn and Manhattan had the most price variation, with Manhattan often having the most expensive listings. Staten Island had the highest variation in price, including some extreme outliers, while the Bronx and Queens had lower prices, with the Bronx being more compact. (see Figure 3). 
- 
-Figure 3 - Price Distribution by Neighbourhood Group
+<img width="660" height="392" alt="image" src="https://github.com/user-attachments/assets/637e7c8d-fd74-40a9-9ff0-81ebdefda774" />
+
 The correlation analysis also revealed some noteworthy associations. Monthly shoppers and reviewers were highly positively correlated with each other (r = 0.56), illustrating that a well-reviewed listing was likely to see repeat bookings, highly valued by hosts.  Availability over the year (availability_365) showed a positive correlation with the number of reviews (r = 0.20), illustrating that properties available throughout the year garnered more reviews.
 The weak negative correlation between price and longitude (r = -0.31) indicates relative location influenced pricing. Latitude, minimum nights, and calculated host listings count may also influence price, but correlations were weak, indicating minimal relationship (see Figure 4).
- 
-Figure 4 – Correlation matrix for multiple factors
+ <img width="653" height="446" alt="image" src="https://github.com/user-attachments/assets/0d292488-8eaa-498c-ac66-55855164e23a" />
+
 The most expensive option was an entire home or apartment, followed by a private room and a shared room. The number of reviews appeared to have little impact on price. Listings that required 8 to 30 nights were usually more expensive.  Stays longer than 30 nights often came with discounts (see Figure 5).
- 
-Figure 5 - Analyses on Price and Contributing Factors
+ <img width="817" height="539" alt="image" src="https://github.com/user-attachments/assets/66252018-c6d0-494d-9c69-c3eb1d776f13" />
+
 Most listings were between $60 and $80. The left-skewed distribution shows that there are fewer premium properties ($200–$300), though they were usually nicer units (see Figure 6).
  
-Figure 6 - Count of Units by Price
+<img width="573" height="456" alt="image" src="https://github.com/user-attachments/assets/6b15d1d9-8acb-42b2-963d-9d9691b186b9" />
+
 There was a weak negative correlation (r ≈ -0.0188, p ≈ 0.0003) between the price and number of reviews. The price and occupancy relationship can be seen in Figure 7 below.
  
-Figure 7 - Distribution of Reviews by Unit Price
+<img width="670" height="412" alt="image" src="https://github.com/user-attachments/assets/013f875d-ccc7-421d-b769-6576c315a482" />
+
 
 Data Analysis - Analysis of Machine Learning
 K-Means clustering was used on price and number of reviews to look for patterns at the neighbourhood level.  Linear regression was used to find out how several factors, like minimum nights, review activity, host qualities, room type, and neighbourhood group, affected listing pricing (Schroeder et al., 2017).
@@ -52,18 +56,19 @@ Table 1 shows that listing features and the location influence prices.  Minimum 
 Room type is another important factor. Private rooms are, on average, 77 units cheaper than whole homes, and shared rooms are 103 units less.  Location is also very important. Listings in Manhattan (+52 units) and Brooklyn (+23 units) cost significantly more than the baseline, but listings in Queens only slightly more (+11 units).
 Overall, the regression shows room type and location are the major factors that affect price, whereas host activity and booking criteria have a smaller effect.  This shows how important property features and location are in determining market value. 
 
- 
-Table 1- Predictors and Their Statistics
+ <img width="684" height="754" alt="image" src="https://github.com/user-attachments/assets/d86d56e9-77b1-4b18-819d-9c6471812531" />
+
 Data Analysis - K-Means Clustering
 The clustering results revealed three distinct market segments:
 1.	Budget-Friendly (Cluster 0): Listings priced between 50–100 units with moderate reviews (20–50). These properties often serve cost-sensitive travelers and are in less popular areas, indicating lower market maturity.
 2.	Standard (Cluster 1): Listings priced between 100–150 units with relatively high reviews (40–70). They represent well-established properties in attractive locations, balancing affordability and reliability.
 3.	Luxury (Cluster 2): Listings priced between 150–250 units with consistently high reviews (60+). Concentrated in high-demand areas, these properties reflect strong reputations, premium services, and target affluent customers.
- 
-Figure 8 - K-Means Clustering of Neighbourhoods
+ <img width="669" height="368" alt="image" src="https://github.com/user-attachments/assets/517eab71-ce6f-4511-aa2e-810632e31539" />
+
 Standard hosts benefit from the balance between competitive price and service quality, luxury hosts benefit from the exclusivity and first-rate amenities, and budget hosts benefit from the boosted occupancy and reviews. These insights assist hosts in differentiating marketing approaches for different client segments.
 Findings and Recommendations
 The results suggest that there is a gap, with strong demand near major attraction points and a lot of opportunity for growth with Airbnb. Competitiveness can be strengthened through value-based pricing by selling low-cost properties in the outskirts, along with selling premium properties in high-demand areas. Modification of the pricing architecture comes into play as well. Also, targeted Airbnb marketing based on the companion special offers further improves customer relations, builds company image, and maximizes profitability.
+
 Conclusion
 This report identifies key business opportunities for Airbnb in New York City, emphasizing neighbourhood-focused strategies to enhance customer satisfaction and revenue. Leveraging data analysis and machine learning supports evidence-based decision-making, strengthening Airbnb’s competitive advantage and long-term growth.
 
