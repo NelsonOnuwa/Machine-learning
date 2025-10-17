@@ -27,6 +27,7 @@ Data Analysis - Data Preprocessing
 The dataset contained 48,895 rows and 16 columns. During preprocessing, we removed listings without reviews or prices, or those that included extreme outliers. This left us with 36,753 records, which we deemed the sample dataset.
 Data Analysis - Exploratory Data Analysis (EDA)
 Our data for several NYC neighbourhoods, along with information on real estate distribution patterns for 2023, shows Manhattan had the most available listings, followed closely by Brooklyn. Staten Island and the Bronx had fewer available listings (see Figures 1 and 2).
+
 <img width="595" height="713" alt="image" src="https://github.com/user-attachments/assets/10563292-ec34-4232-9626-18423c0134b5" />
 
 
