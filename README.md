@@ -23,11 +23,15 @@ Is there a link between the price of a listing and how many reviews it receives?
 What can we learn about how the market and users are changing from the relationship described above? 
 
 Data Analysis - Data Preprocessing
+
+
 The dataset contained 48,895 rows and 16 columns. 
 During preprocessing, we removed listings without reviews or prices, or those that included extreme outliers. 
 This left us with 36,753 records, which we deemed the sample dataset.
 
 Data Analysis - Exploratory Data Analysis (EDA)
+
+
 Our data for several NYC neighbourhoods, along with information on real estate distribution patterns for 2023, shows Manhattan had the most available listings, 
 followed closely by Brooklyn. Staten Island and the Bronx had fewer available listings (see Figures 1 and 2).
 <img width="819" height="447" alt="image" src="https://github.com/user-attachments/assets/21b773b6-da9f-4a52-b466-f035f0c4dbad" />
