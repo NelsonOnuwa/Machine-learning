@@ -1,15 +1,18 @@
-
-NEW YORK CITY AIRBNB:                    A DATA DRIVEN ANALYSIS OF PRICING LOCATION, AND MARKET SEGMENTATION
+                                  A DATA DRIVEN ANALYSIS OF PRICING, LOCATION AND MARKET SEGMENTATION ON NEW YORK CITY AIRBNB DATASET
 
                                                 By Kanan Akparov, Ade Putra Tio Aldino, 
 
                                                    Dwane Lay and Nelson Okolie
 
- 
-                                             New York City Airbnb Analysis
+                                                   
+
+
+
+New York City Airbnb Analysis
 
 Internet services like Airbnb have disrupted the hotel market by giving users greater control over pricing, reviews, and location options (Sharma & Gupta, 2021).  
 Today, Airbnb has become one of the most utilised accommodation services in the world and it dominates the market in New York (Jiao & Bai, 2019). This report analyses pricing, location, availability, guest reviews and property types. Insights from this study could help Airbnb refine pricing strategies and improve guest relations.  
+
 
 Business Analytic Questions
 
